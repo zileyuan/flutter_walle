@@ -1,8 +1,8 @@
 name: flutter_walle
-description: A new flutter plugin project.
-version: 0.0.1
+description: Get channel information (by meituan walle) from within the Flutter application.
+version: 0.0.2
 author: Zach Yuan <zileyuan@gmail.com>
-homepage: https://zileyuan.github.io
+homepage: https://github.com/zileyuan/flutter_walle
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
