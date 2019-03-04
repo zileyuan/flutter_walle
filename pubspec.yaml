@@ -1,8 +1,8 @@
 name: flutter_walle
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: Zach Yuan <zileyuan@gmail.com>
+homepage: https://zileyuan.github.io
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
