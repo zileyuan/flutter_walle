@@ -2,7 +2,7 @@
 
 Get channel information (by meituan walle) from within the Flutter application.
 
-# Usage
+## Usage
 
 Example:
 

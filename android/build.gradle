@@ -34,5 +34,5 @@ android {
 }
 
 dependencies {
-    compile 'com.meituan.android.walle:library:1.1.6'
+    api 'com.meituan.android.walle:library:1.1.6'
 }

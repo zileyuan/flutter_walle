@@ -1,7 +1,7 @@
 name: flutter_walle
 description: Get channel information (by meituan walle) from within the Flutter application.
 version: 0.0.2
-author: Zach Yuan <zileyuan@gmail.com>
+author: zileyuan <zileyuan@gmail.com>
 homepage: https://github.com/zileyuan/flutter_walle
 
 environment:
