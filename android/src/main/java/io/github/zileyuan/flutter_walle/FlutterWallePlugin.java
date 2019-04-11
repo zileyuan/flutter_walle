@@ -36,4 +36,12 @@ public class FlutterWallePlugin implements MethodCallHandler {
       result.notImplemented();
     }
   }
+
+  public static String getChannel(Context ctx) {
+    String channel = WalleChannelReader.getChannel(ctx);
+    if (channel == null || channel.length() == 0) {
+        channel = "NoChannel";
+    }
+    return channel;
+  }
 }
