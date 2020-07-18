@@ -11,7 +11,7 @@
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
   if ([@"getChannel" isEqualToString:call.method]) {
-    result(@"IOS");
+    result(@"AppStore");
   } else {
     result(FlutterMethodNotImplemented);
   }

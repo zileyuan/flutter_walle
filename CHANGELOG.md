@@ -1,3 +1,8 @@
+## 1.0.03
+
+- Apple's default channel is set to Appstore.
+- 苹果默认渠道设为Appstore
+
 ## 1.0.02
 
 - Support new plug-in system.
