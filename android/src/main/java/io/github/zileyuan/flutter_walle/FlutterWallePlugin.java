@@ -39,13 +39,18 @@ public class FlutterWallePlugin implements FlutterPlugin, MethodCallHandler {
   @Override
   public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
     if (call.method.equals("getChannel")) {
-      String channel = WalleChannelReader.getChannel(context);
-      if (TextUtils.isEmpty(channel)) {
-        channel = "NoChannel";
-      }
+      String channel = getChannel(context);
       result.success(channel);
     } else {
       result.notImplemented();
     }
+  }
+
+  public static String getChannel(Context ctx) {
+    String channel = WalleChannelReader.getChannel(ctx);
+    if (TextUtils.isEmpty(channel)) {
+      channel = "NoChannel";
+    }
+    return channel;
   }
 }
